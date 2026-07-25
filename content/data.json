@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "name": "Mostafa",
+    "title": "DevOps Engineer",
+    "tagline": "I build reliable, automated infrastructure — containers, CI/CD pipelines, and monitoring that catches problems before your users do.",
+    "cta_label": "View my work",
+    "cta_link": "#projects",
+    "avatar_initials": "M"
+  },
+  "about": {
+    "heading": "About me",
+    "body": "I'm a DevOps Engineer with hands-on experience in containerized infrastructure, CI/CD automation, and monitoring. I focus on turning manual, fragile deployment processes into reliable, observable, automated systems. I'm currently working full-time as a DevOps Engineer while building out my freelance practice on Upwork."
+  },
+  "skills": [
+    "Docker", "Docker Compose", "Ansible", "AWX", "GitLab CI/CD", "Jenkins",
+    "Prometheus", "Grafana", "CheckMK", "Nginx", "MySQL", "Linux",
+    "Bash Scripting", "Git", "AWS"
+  ],
+  "projects": [
+    {
+      "title": "Home Lab Infrastructure Stack",
+      "description": "A full Docker Compose stack — Nginx reverse proxy, MySQL, Node.js backend, static frontend — with multi-network isolation, healthchecks, resource limits, log rotation, and a complete Prometheus + Grafana monitoring layer.",
+      "tags": ["Docker Compose", "Prometheus", "Grafana", "Nginx"],
+      "link": "https://github.com/yourusername/home-lab-stack",
+      "status": "Live"
+    },
+    {
+      "title": "GitLab CI/CD Pipeline Lab",
+      "description": "End-to-end CI/CD pipeline for a multi-service app: Angular 19 frontend, Spring Boot microservices, Kafka (KRaft mode), and MySQL — covering builds, tests, and containerized deployment.",
+      "tags": ["GitLab CI", "Kafka", "Spring Boot", "Angular"],
+      "link": "https://github.com/yourusername/gitlab-cicd-lab",
+      "status": "In progress"
+    },
+    {
+      "title": "Service Booking Platform",
+      "description": "A full-stack service booking platform (Laravel, MySQL, Tailwind) where clients book services from providers, with authentication, booking workflows, and a visitor-analytics dashboard.",
+      "tags": ["Laravel", "MySQL", "Tailwind"],
+      "link": "https://github.com/yourusername/booking-platform",
+      "status": "Live"
+    }
+  ],
+  "experience": [
+    {
+      "role": "DevOps Engineer",
+      "company": "Technical Solutions & Deployment Company",
+      "period": "Present",
+      "description": "Docker Compose, monitoring (Prometheus/Grafana, CheckMK), GitLab CI/CD, Ansible/AWX, and Linux administration."
+    },
+    {
+      "role": "Freelance DevOps Engineer",
+      "company": "Upwork",
+      "period": "Ongoing",
+      "description": "Independent projects covering infrastructure setup, CI/CD pipelines, and monitoring stacks for clients."
+    }
+  ],
+  "contact": {
+    "heading": "Let's work together",
+    "body": "Open to freelance projects and full-time opportunities in DevOps, infrastructure, and automation.",
+    "email": "you@example.com",
+    "github": "https://github.com/yourusername",
+    "upwork": "https://www.upwork.com/freelancers/~yourprofile"
+  }
+}

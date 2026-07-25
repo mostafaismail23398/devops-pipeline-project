@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <span class="brand" id="nav-name">Portfolio</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-inner">
+    <div class="avatar" id="avatar">M</div>
+    <h1 id="hero-name">Loading…</h1>
+    <p class="hero-title" id="hero-title"></p>
+    <p class="hero-tagline" id="hero-tagline"></p>
+    <a class="btn btn-primary" id="hero-cta" href="#projects">View my work</a>
+  </div>
+</header>
+
+<section id="about" class="section">
+  <div class="container">
+    <p class="eyebrow">About</p>
+    <h2 id="about-heading">About me</h2>
+    <p class="about-body" id="about-body"></p>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <div class="container">
+    <p class="eyebrow">Skills</p>
+    <h2>What I work with</h2>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <p class="eyebrow">Projects</p>
+    <h2>Selected work</h2>
+    <div class="projects-grid" id="projects-grid"></div>
+  </div>
+</section>
+
+<section id="experience" class="section alt">
+  <div class="container">
+    <p class="eyebrow">Experience</p>
+    <h2>Where I've worked</h2>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <p class="eyebrow">Contact</p>
+    <h2 id="contact-heading">Let's talk</h2>
+    <p class="contact-body" id="contact-body"></p>
+    <div class="contact-links" id="contact-links"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <span id="footer-name"></span> · Built with HTML, CSS &amp; vanilla JS
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
