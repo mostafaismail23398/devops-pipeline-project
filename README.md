@@ -78,3 +78,4 @@ Then open `http://localhost:8000`.
   the *public site* there, but the `/admin` dashboard specifically requires
   Netlify Identity + Git Gateway (or a self-hosted OAuth provider) to
   authenticate — that's the trade-off of a free, code-free dashboard.
+# portfolio-site
