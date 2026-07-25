@@ -21,7 +21,7 @@ git init
 git add .
 git commit -m "Initial portfolio + CMS"
 git branch -M main
-git remote add origin https://github.com/your-username/portfolio-site.git
+git remote add origin https://github.com/mostafaismail23398/portfolio-site.git
 git push -u origin main
 ```
 
